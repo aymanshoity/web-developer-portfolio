@@ -96,10 +96,11 @@ color:  #757575;
 /* about section styles */
 .about{
     padding: 130px;
-    text-align: center;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top:130px ;
+    
+    
    
 }
 .section-title{
@@ -115,7 +116,8 @@ color:  #757575;
 }
 main{
     max-width: 1140px;
-}
+    text-align: center;
+   
 .about-ino-con{
     display: flex;
     justify-content: space-around
@@ -129,4 +131,8 @@ main{
 
     color: #474747;
     font-weight: 400px;
+}
+#Whatido{
+    padding:30px;
+
 }
