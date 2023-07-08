@@ -45,7 +45,7 @@ nav a{
 .button_sec{
     border-radius:5px;
     border: 0;
-    /* background: #FD6E0A; */
+    background: #FFF8F3;
     color: #FD6E0A; 
     padding: 15px 35px;
     font-size: 20px;
@@ -58,10 +58,10 @@ nav a{
 /* header related style */
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    /* background-image: url('../images/developer.png');
+    background-position: bottom right,top left;
+    /* background-image: 
     background-position: left; */
 
 }
@@ -127,8 +127,8 @@ main{
     max-width: 1140px;
     width: 1600px;
     
-    
-  
+     
+
    
 .about-ino-con{
     display: flex;
@@ -223,6 +223,7 @@ footer{
     padding:198px 230px 198px 230px;
     display: flex;
     margin-top: 130px;
+    align-items: center;
     gap: 117px;
 }
 .footer-des{
