@@ -95,11 +95,16 @@ color:  #757575;
 /* Main section Styles */
 /* about section styles */
 .about{
+    text-align: center;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top:130px ;
-    align-items: center;
+    margin:130px ;
+    width: 1140px;
+    height: 550px
+    
+    
+    
     
     
    
@@ -109,6 +114,7 @@ color:  #757575;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+   
 }
 .section-description{
     color:  #757575;
@@ -119,7 +125,10 @@ color:  #757575;
 }
 main{
     max-width: 1140px;
+    width: 1600px;
     
+    
+  
    
 .about-ino-con{
     display: flex;
@@ -139,6 +148,7 @@ main{
 }
 #Whatido{
     padding:30px;
+    
 }
 
 .skill-con{
@@ -156,8 +166,12 @@ main{
     color: #757575;
 
 }
+
+    
+}
 main section{
     margin-top: 130px;
+    
 }
 .resume-col-title{
 
@@ -195,3 +209,39 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+.footer-title{
+    color: var(--dark-01, #181818);
+    text-align: left;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+footer{
+    background: #FFF8F3;;
+    padding:198px 230px 198px 230px;
+    display: flex;
+    margin-top: 130px;
+    gap: 117px;
+}
+.footer-des{
+ 
+    width: 562px;  
+
+}
+.message input[type="text"],input[type="email"], textarea{
+    width: 461px;
+    background:  #FFF;
+    margin-bottom: 24px;
+    padding: 18px  35px;
+    color:  #757575;
+    border: 0;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer-img a{
+    margin-right: 24px;
+}
+
